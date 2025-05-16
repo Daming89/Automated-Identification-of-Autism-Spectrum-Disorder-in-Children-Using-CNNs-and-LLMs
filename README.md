@@ -16,15 +16,14 @@ This project aims to develop an automated system for identifying Autism Spectrum
 
 The repository contains 9 main Python scripts that implement different components of the system:
 
-1. **Medical Feature Extraction**: Extracts and analyzes medical features from facial descriptions
-2. **BLIP Clinical Analyzer**: Uses BLIP2 model to generate clinical descriptions of facial regions
-3. **Hybrid Autism Detector**: Combines VGG19 and BLIP2 models for hybrid ASD detection
-4. **Model Evaluation**: Comprehensive evaluation framework for the hybrid model
-5. **VGG19 Evaluation**: Standalone evaluation of the CNN component
-6. **LLM Autism Analyzer**: Standalone LLM-based analysis of facial features
-7. **Confusion Matrix Visualization**: Visualization tools for model performance
-8. **Model Training**: Scripts for training the VGG19 model with data augmentation
-9. **Fine-Tuning**: Scripts for fine-tuning the BLIP2 model on ASD facial features
+1. **facial feature extraction(10 most times)**: Extracts and analyzes medical features from facial descriptions
+2. **Facial part Description**: Uses BLIP2 model to generate clinical descriptions of facial regions
+3. **Hybrid_Autism_Detector**: Combines VGG19 and BLIP2 models for hybrid ASD detection
+4. **Hybrid_mode_test**: Comprehensive evaluation framework for the hybrid model
+5. **only cnn**: Standalone evaluation of the CNN component
+6. **ony llm**: Standalone LLM-based analysis of facial features
+7. **training CNNs**: Scripts for training the CNN model with data augmentation
+8. **training llms**: Scripts for fine-tuning the BLIP2 model on ASD facial features
 
 ## Technical Components
 
@@ -61,3 +60,8 @@ The system was trained and evaluated on a dataset of facial images from:
 1. **Autistic**: 2938
 2. **Non-Autistic**: 2938
 Images were preprocessed and segmented into 24 facial regions for detailed analysis.
+
+##  Performances
+1. **VGG19** : ![CNN19_result](CNN19_result.png)
+2. **BLIP2**: ![BLIP2_result](BLIP2_result.png)
+3. **Hybrid**: ![Hybrid_result](Hybrid_result.png)
