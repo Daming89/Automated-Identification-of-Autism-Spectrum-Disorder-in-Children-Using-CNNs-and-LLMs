@@ -65,3 +65,9 @@ Images were preprocessed and segmented into 24 facial regions for detailed analy
 1. **VGG19** : ![CNN19_result](CNN19_result.png)
 2. **BLIP2**: ![BLIP2_result](BLIP2_result.png)
 3. **Hybrid**: ![Hybrid_result](Hybrid_result.png)
+
+# Results
+1. This study explored the feasibility of a hybrid AI-based system for supporting autism screening by integrating Convolutional Neural Networks (CNNs) and Large Language Models (LLMs). The proposed architecture aimed to combine visual feature extraction with semantic interpretation to better emulate elements of clinical assessment. While the CNN component demonstrated a reasonable capacity for distinguishing between autistic and non-autistic facial images, the integration with LLMs, designed to provide descriptive reasoning, did not enhance performance and, in fact, reduced overall classification accuracy.
+2. These findings emphasize the limitations of using static facial imagery and language models to approximate the behavioral observations that clinicians rely on in autism diagnosis. They also highlight the gap between current AI capabilities and the complexity of clinical reasoning, which typically depends on dynamic, context-rich behavioral data. Nonetheless, the research provides important contributions by identifying methodological barriers, clarifying the scope of AI in developmental disorder screening, and outlining considerations for future system design.
+3. Despite the modest performance of the integrated model, this work has value as an exploratory step toward multimodal AI frameworks in healthcare. It underscores the importance of aligning input data types with the diagnostic processes they intend to support and offers a foundation for future studies seeking to improve the role of AI in early autism identification. 
+
