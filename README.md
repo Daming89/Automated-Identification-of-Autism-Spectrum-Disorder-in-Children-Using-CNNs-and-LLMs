@@ -55,8 +55,8 @@ detector = HybridAutismDetector(
 result = detector.analyze_image("path/to/image.jpg")
 print(f"ASD Probability: {result['combined_score']:.1f}%")
 print("Evidence:", result['evidence'])
-
-##Dataset
+```
+## Dataset
 The system was trained and evaluated on a dataset of facial images from:
 1. **Autistic**: 2938
 2. **Non-Autistic**: 2938
